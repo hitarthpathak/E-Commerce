@@ -452,6 +452,23 @@ span:hover {
 
 /* -------------------------------------------------------------------------------------------------- */
 
+.qr-code {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 10vh;
+    background-color: rgba(250, 200, 200, 0.400);
+}
+
+.qr-code img {
+    height: auto;
+    width: auto;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
 .introduction {
     height: 50rem;
     width: 100%;
