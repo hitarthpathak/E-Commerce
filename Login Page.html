@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Login Page</title>
+
+    <link rel="icon" href="Images/Login Icon.jpg">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <div class="nav-logo">
+
+            <img id="logo" src="Images/Logo.jpg" alt="Image Not Available" />
+
+            <p>E-Commerce</p>
+
+        </div>
+
+        <ul class="nav-menu">
+
+            <a href="index.html">
+
+                <li id='link-1'>Home</li>
+
+            </a>
+
+            <a href="Men.html">
+
+                <li id='link-2'>Men</li>
+
+            </a>
+
+            <a href="Women.html">
+
+                <li id='link-3'>Women</li>
+
+            </a>
+
+            <a href="Kids.html">
+
+                <li id='link-4'>Kids</li>
+
+            </a>
+
+        </ul>
+
+        <div class="mode">
+
+            <div id="toggle-btn" onclick="change_mode()">
+
+                <div id="toggle"></div>
+
+            </div>
+
+        </div>
+
+        <div class="nav-login-cart">
+
+            <a href="Login Page.html">
+
+                <button>Log In</button>
+
+            </a>
+
+            <a href="Cart.html">
+
+                <img id='cart-icon' src="Images/Cart Icon.jpg" alt="Image Not Available" />
+
+            </a>
+
+            <div id="nav-cart-count">3</div>
+
+        </div>
+
+    </div>
+
+    <div class='login'>
+
+        <h1>Log In</h1>
+
+        <input id="e-mail" type="email" placeholder='Enter Your E-Mail Address' />
+
+        <input id="password" type="password" placeholder='Enter Your Password' />
+
+        <div class="terms-and-conditions">
+
+            <input type="checkbox" id="check" />
+
+            <label for="check">By Logging In, I agree to the Terms of Use and Privacy Policy</label>
+
+        </div>
+
+        <button onclick="log_in()">Log In</button>
+
+        <hr />
+
+        <p>Don't have an account? <a href="Sign Up.html"><span>Sign Up</span></a> </p>
+
+    </div>
+
+    <div class="footer">
+
+        <div class="footer-logo">
+
+            <img id='logo' src="Images/Logo.jpg" alt="Image Not Available" />
+
+            <p>E-Commerce</p>
+
+        </div>
+
+        <ul class='socials'>
+
+            <li>
+
+                <img src="Images/Instagram Logo.jpg" alt="Image Not Available" />
+
+            </li>
+
+            <li>
+
+                <img src="Images/Facebook Logo.jpg" alt="Image Not Available" />
+
+            </li>
+
+            <li>
+
+                <img src="Images/Twitter Logo.jpg" alt="Image Not Available" />
+
+            </li>
+
+        </ul>
+
+        <hr />
+
+        <p id='copyright'>Copyright © 2024</p>
+
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

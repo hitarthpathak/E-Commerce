@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Product Details</title>
+
+    <link rel="icon" href="Images/Product Details Icon.jpg">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="navbar">
+
+        <div class="nav-logo">
+
+            <img id="logo" src="Images/Logo.jpg" alt="Image Not Available" />
+
+            <p>E-Commerce</p>
+
+        </div>
+
+        <ul class="nav-menu">
+
+            <a href="index.html">
+
+                <li id='link-1'>Home</li>
+
+            </a>
+
+            <a href="Men.html">
+
+                <li id='link-2'>Men</li>
+
+            </a>
+
+            <a href="Women.html">
+
+                <li id='link-3'>Women</li>
+
+            </a>
+
+            <a href="Kids.html">
+
+                <li id='link-4'>Kids</li>
+
+            </a>
+
+        </ul>
+
+        <div class="mode">
+
+            <div id="toggle-btn" onclick="change_mode()">
+
+                <div id="toggle"></div>
+
+            </div>
+
+        </div>
+
+        <div class="nav-login-cart">
+
+            <a href="Login Page.html">
+
+                <button>Log In</button>
+
+            </a>
+
+            <a href="Cart.html">
+
+                <img id='cart-icon' src="Images/Cart Icon.jpg" alt="Image Not Available" />
+
+            </a>
+
+            <div id="nav-cart-count">3</div>
+
+        </div>
+
+    </div>
+
+    <div class='product-details'>
+
+        <h1>Product Details</h1>
+
+        <hr />
+
+        <div class="product">
+
+            <div class="product-left">
+
+                <div class="side-images">
+
+                    <img src="Images/Women-Dress-3.jpg" alt="Image Not Available" onclick="change_image(src)" />
+
+                </div>
+
+                <div class="main-image">
+
+                    <img id="main-img" src="Images/Women-Dress-3.jpg" alt="Image Not Available" />
+
+                </div>
+
+            </div>
+
+            <div class="product-right">
+
+                <table>
+
+                    <tbody>
+
+                        <tr>
+
+                            <th>Product Name</th>
+
+                            <td>ABC</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <th>Product Description</th>
+
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequatur, commodi
+                                labore eius quisquam voluptate iste aperiam explicabo enim facilis! Quia necessitatibus
+                                id odio aut alias, blanditiis sunt eos itaque iste ipsam quos beatae expedita rerum
+                                aperiam repudiandae exercitationem unde ipsa dolorem animi fugiat cum? Numquam beatae
+                                vero delectus necessitatibus?</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <th>Seller Name</th>
+
+                            <td>XYZ</td>
+
+                        </tr>
+
+                        <tr>
+
+                            <th>Price</th>
+
+                            <td id="price">
+
+                                <div class='new-price'>50 USD</div>
+
+                                <div class='old-price'>75 USD</div>
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <th>Ratings</th>
+
+                            <td>
+
+                                <img src="Images/Start_Icon.jpg" alt="Image Not Available" />
+
+                                <img src="Images/Start_Icon.jpg" alt="Image Not Available" />
+
+                                <img src="Images/Start_Icon.jpg" alt="Image Not Available" />
+
+                                <img src="Images/Start_Icon.jpg" alt="Image Not Available" />
+
+                                <img src="Images/Start_Icon.jpg" alt="Image Not Available" />
+
+                            </td>
+
+                        </tr>
+
+                        <tr>
+
+                            <th>Quantity</th>
+
+                            <td>
+
+                                <div class="counter-box">
+
+                                    <button id='increase' onclick="increase()">
+
+                                        <img src="Images/Upper Arrow.jpg" alt="Image Not Available" />
+
+                                    </button>
+
+                                    <input id="input" type="text" value="1" readonly />
+
+                                    <button id='decrease' onclick="decrease()">
+
+                                        <img src="Images/Lower Arrow.jpg" alt="Image Not Available" />
+
+                                    </button>
+
+                                </div>
+
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+                <button onclick="add_to_cart()">Add To Cart</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+
+        <div class="footer-logo">
+
+            <img id='logo' src="Images/Logo.jpg" alt="Image Not Available" />
+
+            <p>E-Commerce</p>
+
+        </div>
+
+        <ul class='socials'>
+
+            <li>
+
+                <img src="Images/Instagram Logo.jpg" alt="Image Not Available" />
+
+            </li>
+
+            <li>
+
+                <img src="Images/Facebook Logo.jpg" alt="Image Not Available" />
+
+            </li>
+
+            <li>
+
+                <img src="Images/Twitter Logo.jpg" alt="Image Not Available" />
+
+            </li>
+
+        </ul>
+
+        <hr />
+
+        <p id='copyright'>Copyright © 2024</p>
+
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
