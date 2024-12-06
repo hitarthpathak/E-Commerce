@@ -98,7 +98,7 @@ function sign_up() {
 
         alert("You Are Now Registered! Please Log In!");
 
-        window.location = "/Pages/Login Page.html";
+        window.location = "Login Page.html";
 
     }
 
@@ -147,7 +147,7 @@ function log_in() {
 
         alert("You Are Now Logged In! Please Shop!");
 
-        window.location = "/index.html";
+        window.location = "index.html";
 
     }
 
